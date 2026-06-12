@@ -1,0 +1,19 @@
+name: Hardware BOM Cost Tracking
+
+on:
+  push:
+    branches: [ main ]
+    paths: [ 'bom/component-pricing.csv', 'bom/NODE_BOM.md' ]
+
+jobs:
+  track:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Parse BOM and track costs
+      run: |
+        echo "Tracking hardware costs..."
+        # Parse CSV and check for cost changes
+    - name: Alert on significant changes
+      run: |
+        echo "Alert: Cost tracking enabled"

@@ -1,0 +1,8 @@
+date,component,quantity,unit_cost,total_cost,supplier
+2026-06-12,Raspberry Pi CM4 2GB,1,55,55,RS Components
+2026-06-12,Viofo A119,1,250,250,Amazon
+2026-06-12,Quectel EC25,1,35,35,AliExpress
+2026-06-12,u-blox NEO-M9N,1,30,30,Digi-Key
+2026-06-12,TPM 2.0,1,20,20,Adafruit
+2026-06-12,OBD-II Interface,1,25,25,eBay
+2026-06-12,Enclosure,1,11,11,Amazon
